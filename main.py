@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 
-cancelamento = ['ser gostoso(a) demais', 'ser homofóbico', 'ser otaco fedido', 'ser Paulista', 'ser debochado', 'ser fanatico por politico', 'ser fanatico religioso', 'falar muita merda no twitter', 'ser tik toker', 'usar Reddit não ironicamente', 'ser antivacina', 'tomar banho de chinelo','ser gay','ser bolsominion']
+cancelamento = ['ser gostoso(a) demais', 'ser homofóbico', 'ser otaco fedido', 'ser Paulista', 'ser debochado', 'ser fanatico por politico', 'ser fanatico religioso', 'falar muita merda no twitter', 'ser tik toker', 'usar Reddit não ironicamente', 'ser antivacina', 'tomar banho de chinelo','ser bolsominion']
 
 @app.route('/')
 def index():  
