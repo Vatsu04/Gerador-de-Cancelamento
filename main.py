@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 
-cancelamento = ['ser gostoso(a) demais', 'ser homofóbico', 'ser otaco fedido', 'ser Paulista', 'ser debochado', 'ser fanatico por politico', 'ser fanatico religioso', 'falar muita merda no twitter', 'ser tik toker', 'usar Reddit não ironicamente', 'ser antivacina', 'tomar banho de chinelo','ser bolsominion']
+cancelamento = ['ser gostoso(a) demais', 'ser homofóbico', 'ser otaco fedido', 'ser debochado', 'ser fanatico por politico', 'ser fanatico religioso', 'falar muita merda no twitter', 'ser tik toker', 'usar Reddit não ironicamente', 'ser antivacina', 'tomar banho de chinelo', 'ser bolsominion', 'ter pau pequeno']
 
 @app.route('/')
 def index():  
@@ -28,10 +28,10 @@ def index():
 
 <div/>
 '''
-app.run(debug=True, host='0.0.0.0', port='8888')
+app.run(debug=True, host='0.0.0.0', port ='3005')
 
+import random 
 
+idx = random.randint(0, 6)
 
-idx = random.randint(0, len(cancelamento)-1)
-
-print(cancelamento[idx])
+print(lista[idx])
